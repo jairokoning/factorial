@@ -1,6 +1,6 @@
 const getFactorial = async (number: number) => { 
   if (Number(number) === Number(0)) {
-    return 1
+    return 1;
   }
   let calcResult = number;
   for (let i = number-1; i > 1; i--) {
